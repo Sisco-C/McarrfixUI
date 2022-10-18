@@ -133,7 +133,7 @@ export default Home = () => {
     </View>
 <View style={{marginTop:5, marginLeft:18, flexDirection: 'row' }}>
   <TextInput style={{height:50, width:211, borderRadius:10,borderWidth:1, borderColor:'#033F6333'}}></TextInput>
-  <TextInput style={{height:50, width:153, borderRadius:10,borderWidth:1, borderColor:'#033F6333'}}></TextInput>
+  <TextInput style={{height:50, width:153, borderRadius:10,borderWidth:1, borderColor:'#033F6333', marginLeft: 26}}></TextInput>
   </View>
   
   <View style={{width:85, height:19,marginTop:18, marginLeft:18}}>
@@ -336,7 +336,7 @@ boxStyles={{borderRadius:5,borderColor:'#033F6333' }}
        
        
          <BottomSheet
-              snapPoints={[630, -300]}
+              snapPoints={[640, -300]}
 
         ref={bookServiceRef}
         borderRadius={10}
